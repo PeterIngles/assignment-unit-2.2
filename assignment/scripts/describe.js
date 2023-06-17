@@ -146,9 +146,21 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX -- variable colorOne value is red, but the instructions say to set it to blue, variable colorTwo is set to blue,
+/// but the insturctions say to set it to red
+// Should be let colorOne = 'blue'; and let colorTwo = 'red';
+
 if (mix === true) {
   colorOne = 'purple';
 }
+
+//FIX -- The conditional says if mix is a true exact match to true then colorOne becomes purple,
+// However, the instructions says to when the conditonal is true to change colorOne and colorTwo to purple
+// Should be if (mix === true) {
+                colorOne = 'purple';
+                colorTwo = 'purple';
+}
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -159,9 +171,20 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX -- Variable temp is set to 40 and a contant time is set to 4,
+// the instructions say both are variables though,
+// Should be let temp = 40; and let time = 4;
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+// FIX --  The conditional checks if temp is greater than 39 or the time is greater than or equal to 4,
+// the instructions say to check if temp is greater than 39 and time is greater than or equal to 4
+// Should be if (temp > 39 && time >= 4) {
+                console.log('throw away the food!');
+}
+
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -172,10 +195,24 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
+//FIX -- Variable age is set to 21 and constant minAge is set to 21,
+// the instructions say they are both supposed to be variables,
+// Should be let age = 21; and let minAge = 21;
+
+if (minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
+
+// FIX -- The conditional checks if minAGE is less than or equal to age and if it's true we console.log('no entry)
+// if it is false we console.log('enter')
+// The instructions however state to check if age is greater than or equal to minAge then console.log('enter')
+// Should be if (age >= minAge) {
+              console.log('enter');
+              } else {
+              console.log('no entry');
+}
+
 */
 
