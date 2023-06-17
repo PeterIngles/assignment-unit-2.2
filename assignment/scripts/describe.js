@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to Dane as a string
+// Then we set a conditional to check the if the value of name is an exact true match to Mary, if so we console.log ''Hi, Mary!'
+// If the conditional is not an exact true match, we console.log 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret
+// Then we make a variable called code and set it's value to 123 as a number
+// Then we set a conditional to check if variable code is an exact true match to 123, 
+// if so we set the value of variable secret to super as a string, and double the value of the variable code
+// Then we set a conditional to check if code is greater than 250,
+// if so we change the value of variable secret to duper
+// Then we console.log(secret) which value would read as super
+
 
 //CODE
 /*
@@ -70,10 +74,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it's value to true as a boolean
+// We make a variable called age and set it's value to 34 as a number
+// We make a variable called zip and set it's value to 55407 as a number
+// Then we set a compound conditional to check if variable isStudent is a true exact match to true and that zip is greater than 80000,
+// if so we console.log 'You're a student on the West Coast!'
+// If the first conditonal is false, we have a second compound conditional to check if isStudent is a true exact match to false or 
+// if variable age is less than 30,
+// if so we console.log 'What are your hobbies?'
+// If the first and second conditionals are false, we have a conditional to check if isStudent is a true exact match to true,
+// if so we console.log 'Welcome to Prime!'
+// If the first through third conditionals are all false, we have a fourth conditional that console.logs 'How about the weather!'
+// In this example, the first two compund conditonals are false and the third is true, so our console.log will read 'Welcome to Prime!'
 
 //CODE
 /*
