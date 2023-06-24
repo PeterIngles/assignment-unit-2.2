@@ -29,7 +29,7 @@ if (number >= 2) {
 // We make a variable called name and set it to Dane as a string
 // Then we set a conditional to check the if the value of name is an exact true match to Mary, if so we console.log ''Hi, Mary!'
 // If the conditional is not an exact true match, we console.log 'How do you do?'
-//
+// Since the first conditonal is not true we, we console.log 'How do you do?'
 
 //CODE
 /*

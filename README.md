@@ -1,4 +1,3 @@
-# Unit 2, Part 2: Describing Code
 
 This week we introduced the programming language of the Internet, JavaScript. With JavaScript we can make our websites smart by adding interactivity and logic.
 
@@ -9,7 +8,7 @@ This week we introduced the programming language of the Internet, JavaScript. Wi
 
 ## Assignment
 
-As always, start off by forking and cloning this repository from GitHub. Open the code up in Atom to get started. 
+As always, start off by forking and cloning this repository from GitHufb. Open the code up in Atom to get started. 
 
 > Note that in the future we will not call this out explicitly. We'll assume you already know that is how you start your work. 
 
